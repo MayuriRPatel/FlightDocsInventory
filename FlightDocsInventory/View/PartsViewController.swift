@@ -68,7 +68,7 @@ extension PartsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+        print(parts[indexPath.row])
     }
 }
 
