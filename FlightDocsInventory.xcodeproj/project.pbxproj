@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B03DC0226790DF000A250ED /* PartsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03DC0026790DF000A250ED /* PartsTableViewCell.swift */; };
+		1B03DC0326790DF000A250ED /* PartsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B03DC0126790DF000A250ED /* PartsTableViewCell.xib */; };
+		1B03DC0626791F2E00A250ED /* InventoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03DC0526791F2E00A250ED /* InventoryModel.swift */; };
+		1B03DC0926791F5A00A250ED /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03DC0826791F5A00A250ED /* Helpers.swift */; };
+		1B03DC0C2679213400A250ED /* AddNewPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03DC0B2679213400A250ED /* AddNewPartViewController.swift */; };
+		1B03DC0E267924E600A250ED /* AddNewPartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B03DC0D267924E600A250ED /* AddNewPartViewModel.swift */; };
 		1BEEFFB82678F6180065DD55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFB72678F6180065DD55 /* AppDelegate.swift */; };
 		1BEEFFBA2678F6180065DD55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFB92678F6180065DD55 /* SceneDelegate.swift */; };
-		1BEEFFBC2678F6180065DD55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFBB2678F6180065DD55 /* ViewController.swift */; };
+		1BEEFFBC2678F6180065DD55 /* PartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFBB2678F6180065DD55 /* PartsViewController.swift */; };
 		1BEEFFBF2678F6180065DD55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEEFFBD2678F6180065DD55 /* Main.storyboard */; };
 		1BEEFFC22678F6180065DD55 /* FlightDocsInventory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFC02678F6180065DD55 /* FlightDocsInventory.xcdatamodeld */; };
 		1BEEFFC42678F61C0065DD55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEEFFC32678F61C0065DD55 /* Assets.xcassets */; };
 		1BEEFFC72678F61C0065DD55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEEFFC52678F61C0065DD55 /* LaunchScreen.storyboard */; };
 		1BEEFFD22678F61C0065DD55 /* FlightDocsInventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFD12678F61C0065DD55 /* FlightDocsInventoryTests.swift */; };
 		1BEEFFDD2678F61C0065DD55 /* FlightDocsInventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFDC2678F61C0065DD55 /* FlightDocsInventoryUITests.swift */; };
+		1BEEFFEC2678F66B0065DD55 /* FlightDocsAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEEFFEB2678F66B0065DD55 /* FlightDocsAPIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +43,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B03DC0026790DF000A250ED /* PartsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsTableViewCell.swift; sourceTree = "<group>"; };
+		1B03DC0126790DF000A250ED /* PartsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PartsTableViewCell.xib; sourceTree = "<group>"; };
+		1B03DC0526791F2E00A250ED /* InventoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryModel.swift; sourceTree = "<group>"; };
+		1B03DC0826791F5A00A250ED /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		1B03DC0B2679213400A250ED /* AddNewPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPartViewController.swift; sourceTree = "<group>"; };
+		1B03DC0D267924E600A250ED /* AddNewPartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPartViewModel.swift; sourceTree = "<group>"; };
 		1BEEFFB42678F6180065DD55 /* FlightDocsInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightDocsInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEEFFB72678F6180065DD55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEEFFB92678F6180065DD55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BEEFFBB2678F6180065DD55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1BEEFFBB2678F6180065DD55 /* PartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsViewController.swift; sourceTree = "<group>"; };
 		1BEEFFBE2678F6180065DD55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BEEFFC12678F6180065DD55 /* FlightDocsInventory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightDocsInventory.xcdatamodel; sourceTree = "<group>"; };
 		1BEEFFC32678F61C0065DD55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,7 @@
 		1BEEFFD82678F61C0065DD55 /* FlightDocsInventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightDocsInventoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEEFFDC2678F61C0065DD55 /* FlightDocsInventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDocsInventoryUITests.swift; sourceTree = "<group>"; };
 		1BEEFFDE2678F61C0065DD55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEEFFEB2678F66B0065DD55 /* FlightDocsAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDocsAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B03DBFA26790A8E00A250ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B03DC0A2679211100A250ED /* AddPart */,
+				1B03DBFB26790AF100A250ED /* TableViewCell */,
+				1BEEFFBB2678F6180065DD55 /* PartsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B03DBFB26790AF100A250ED /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B03DC0026790DF000A250ED /* PartsTableViewCell.swift */,
+				1B03DC0126790DF000A250ED /* PartsTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		1B03DC0426791F0D00A250ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B03DC0526791F2E00A250ED /* InventoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B03DC0726791F3F00A250ED /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				1B03DC0826791F5A00A250ED /* Helpers.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		1B03DC0A2679211100A250ED /* AddPart */ = {
+			isa = PBXGroup;
+			children = (
+				1B03DC0B2679213400A250ED /* AddNewPartViewController.swift */,
+				1B03DC0D267924E600A250ED /* AddNewPartViewModel.swift */,
+			);
+			path = AddPart;
+			sourceTree = "<group>";
+		};
 		1BEEFFAB2678F6180065DD55 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +159,12 @@
 		1BEEFFB62678F6180065DD55 /* FlightDocsInventory */ = {
 			isa = PBXGroup;
 			children = (
+				1B03DC0726791F3F00A250ED /* New Group */,
+				1B03DC0426791F0D00A250ED /* Model */,
+				1BEEFFEA2678F6500065DD55 /* APIService */,
+				1B03DBFA26790A8E00A250ED /* View */,
 				1BEEFFB72678F6180065DD55 /* AppDelegate.swift */,
 				1BEEFFB92678F6180065DD55 /* SceneDelegate.swift */,
-				1BEEFFBB2678F6180065DD55 /* ViewController.swift */,
 				1BEEFFBD2678F6180065DD55 /* Main.storyboard */,
 				1BEEFFC32678F61C0065DD55 /* Assets.xcassets */,
 				1BEEFFC52678F61C0065DD55 /* LaunchScreen.storyboard */,
@@ -129,6 +190,14 @@
 				1BEEFFDE2678F61C0065DD55 /* Info.plist */,
 			);
 			path = FlightDocsInventoryUITests;
+			sourceTree = "<group>";
+		};
+		1BEEFFEA2678F6500065DD55 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				1BEEFFEB2678F66B0065DD55 /* FlightDocsAPIService.swift */,
+			);
+			path = APIService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B03DC0326790DF000A250ED /* PartsTableViewCell.xib in Resources */,
 				1BEEFFC72678F61C0065DD55 /* LaunchScreen.storyboard in Resources */,
 				1BEEFFC42678F61C0065DD55 /* Assets.xcassets in Resources */,
 				1BEEFFBF2678F6180065DD55 /* Main.storyboard in Resources */,
@@ -261,10 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEEFFBC2678F6180065DD55 /* ViewController.swift in Sources */,
+				1B03DC0E267924E600A250ED /* AddNewPartViewModel.swift in Sources */,
+				1B03DC0226790DF000A250ED /* PartsTableViewCell.swift in Sources */,
+				1B03DC0C2679213400A250ED /* AddNewPartViewController.swift in Sources */,
+				1BEEFFBC2678F6180065DD55 /* PartsViewController.swift in Sources */,
 				1BEEFFB82678F6180065DD55 /* AppDelegate.swift in Sources */,
+				1B03DC0926791F5A00A250ED /* Helpers.swift in Sources */,
+				1BEEFFEC2678F66B0065DD55 /* FlightDocsAPIService.swift in Sources */,
 				1BEEFFC22678F6180065DD55 /* FlightDocsInventory.xcdatamodeld in Sources */,
 				1BEEFFBA2678F6180065DD55 /* SceneDelegate.swift in Sources */,
+				1B03DC0626791F2E00A250ED /* InventoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
